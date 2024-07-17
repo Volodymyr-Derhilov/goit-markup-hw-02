@@ -1,5 +1,5 @@
 body {
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     line-height: 24px;
     letter-spacing: 2%;
@@ -16,36 +16,48 @@ a {
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 18px;    
-}
-
-.menu li a {
-    color: #2E2F42;
-    font-size: 12px;
-    line-height: 1.3;
-}
-
-.contacts {
-    font-size: 12px;
-    line-height: 1.3;
-}
-
-.logo:hover,
-.logo:focus,
-.link:focus,
-.link:hover, 
-.menu li a:hover,
-.menu li a:focus,
-.contacts:focus, 
-.contacts:hover,
-.footer .logo:hover,
-.footer .logo:focus {
-    color: #4D5AE5;
+    font-size: 18px;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;   
 }
 
 .logo-first {
+    color: #2e2f42;
+}
+
+.link {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.link:focus,
+.link:hover,
+.contacts:hover, 
+.contacts:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-first:focus,
+.logo-first:hover,
+.logo-second:hover,
+.logo-second:focus {
     color: #4D5AE5;
 }
 
@@ -56,7 +68,7 @@ a {
 
 .page-title {
     font-weight: bold;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.07;
     font-size: 56px;
     color: #FFFFFF;
@@ -65,9 +77,13 @@ a {
 
 .button {
     font-size: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -79,11 +95,35 @@ a {
     font-weight: bold;
     font-size: 36px;
     color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .title-description {
     font-size: 20px;
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-card{
+    background-color: #FFFFFF;
+
 }
 
 .footer {
@@ -91,8 +131,7 @@ a {
     color: #F4F4FD;
 }
 
-.footer .logo {
+.logo-second {
     color: #F4F4FD;
 }
-
 
